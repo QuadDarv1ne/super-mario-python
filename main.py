@@ -1,13 +1,12 @@
 import pygame
+from pygame import *
 from classes.Dashboard import Dashboard
 from classes.Level import Level
 from classes.Menu import Menu
 from classes.Sound import Sound
 from entities.Mario import Mario
 
-
 windowSize = 640, 480
-
 
 def main():
     pygame.mixer.pre_init(44100, -16, 2, 4096)
@@ -42,3 +41,6 @@ if __name__ == "__main__":
     exitmessage = 'restart'
     while exitmessage == 'restart':
         exitmessage = main()
+
+''' Дата проекта: 24.01.2023 года '''
+''' Дуплей Максим Игоревич '''
